@@ -85,6 +85,6 @@ public class Car implements Comparable<Car>
         if(carPrice>o.carPrice)
             return -1;
         else if(carPrice<o.getCarPrice())return 1;
-        else return 0;
+        else return year.compareTo(o.getYear());
     }
 }
