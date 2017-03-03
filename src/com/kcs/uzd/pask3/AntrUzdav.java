@@ -42,7 +42,7 @@ public class AntrUzdav
         String[] items=line.split("\t");
         if(items.length==3)
         {
-            cars.add(new Car(items[0],items[1],(items[2])));
+            cars.add(new Car(items[0],items[1],items[2]));
         }
     }
 }
